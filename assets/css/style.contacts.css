@@ -1,0 +1,610 @@
+
+
+.contactsP {
+    width: 100%;
+    height: 50vh; 
+
+    display: flex;
+    flex-direction: row;
+    background-color: #06d6a0;
+    color: #17032d;
+    /* background-color: red; */
+}
+
+
+.contactsP-a,
+.contactsP-c {
+    width: 10%;
+    height: 50vh;
+
+    /* background-color: deeppink; */
+}
+
+.contactsP-b {
+    width: 80%;
+    height: 50vh;
+
+    display: flex;
+    flex: row;
+    align-items: center;
+    /* background-color: blueviolet; */
+}
+
+    .contactsP-ba {
+        width: 100%;
+        height: 40vh;
+        
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        /* background-color: coral; */
+    }
+
+        .contactsP-ba-a {
+            width: 20%;
+            height: 40vh;
+            
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            /* clip-path: polygon(25% 0%, 100% 0%, 75% 100%, 0% 100%); */
+            /* background-color: red; */
+        }
+
+            .contactsP-ba-a-gradPic {
+                width: 30vh;
+                height: 30vh;
+                
+                -webkit-box-shadow: 30px 30px 50px 10px rgba(0, 0, 0, 0.3);
+                -moz-box-shadow: 30px 30px 50px 10px rgba(0, 0, 0, 0.3);
+                box-shadow: 30px 30px 50px 10px rgba(0, 0, 0, 0.3);
+                border-radius: 50%;
+                background: url("https://res.cloudinary.com/pjtobias4/image/upload/v1669945933/onlineResumePortfolio/gradPic-webResume_a75cf2.png");
+                background-position: 50% 0%;
+                background-size: 30vh 30vh;
+                background-repeat: no-repeat;
+                position: absolute;
+                z-index: 2;
+
+            }
+                .bgForGradPic {
+                    width: 32vh;
+                    height: 32vh;
+                    
+                    margin: 50px 0 0 120px;
+                    border-radius: 50%;
+                    border: 2px solid #ef476f;
+                    /* background-color: #ef476f; */
+                    z-index: 1;
+                    position: absolute;
+                }
+
+                .bgForGradPic2 {
+                    width: 34vh;
+                    height: 34vh;
+                    
+                    margin: 50px 0 0 120px;
+                    border-radius: 50%;
+                    border: 2px dotted #17032d;
+                    /* background-color: #ef476f; */
+                    z-index: 1;
+                    position: absolute;
+                }
+
+        .contactsP-ba-b {
+            width: 50%;
+            height: 40vh;
+
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            /* background-color: green; */
+        }
+
+            .contactsP-ba-ba {
+                width: 100%;
+                height: 15vh;
+                
+                border-bottom: 2px solid #ef476f;
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                text-align: center;
+                /* background-color: gray; */
+            }
+
+                .contactsP-ba-ba h1 {
+                    font-size: 38px;
+                }
+                .contactsP-ba-ba h2 {
+                    font-size: 25px;
+                }
+
+            .contactsP-ba-bb,
+            .contactsP-ba-bc {
+                width: 100%;
+                height: 7vh;
+
+                display: flex;
+                flex-direction: row;
+                justify-content: center;
+                align-items: flex-end;
+
+                
+                /* background-color: lightgray; */
+            }
+
+                .contactsP-ba-bb i {
+                    font-family: 'Sniglet', cursive;
+                    font-size: 40px;
+                    margin: 0 10px 0 10px;
+                }
+
+                .contactsP-ba-bc p {
+                    font-family: 'Sniglet', cursive;
+                    font-size: 17px;
+                    margin: 0 20px 0 20px;
+                }
+
+
+        .contactsP-ba-c {
+            width: 20%;
+            height: 40vh;
+            
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            /* background-color: #06d6a0; */
+            /* background-color: blue; */
+        }
+
+            .contactsP-ba-c-logoAni {
+                width: 30vh;
+                height: 30vh;
+                
+                -webkit-box-shadow: -30px 30px 50px 10px rgba(0, 0, 0, 0.3);
+                -moz-box-shadow: -30px 30px 50px 10px rgba(0, 0, 0, 0.3);
+                box-shadow: -30px 30px 50px 10px rgba(0, 0, 0, 0.3);
+                border-radius: 50%;
+                background: url("https://res.cloudinary.com/pjtobias4/image/upload/v1669947987/onlineResumePortfolio/bgContacts_muun7l.gif");
+                background-position: 50% 50%;
+                background-size: 40vh 40vh;
+                background-repeat: no-repeat;
+                position: absolute;
+                /* background-color: #06d6a0; */
+                /* background-color: darkcyan; */
+                z-index: 2;
+            }
+
+            .bgForLogoAni {
+                width: 32vh;
+                height: 32vh;
+                
+                margin: -50px 0 0 -120px;
+                border-radius: 50%;
+                border: 2px solid #ef476f;
+                /* background-color: #ef476f; */
+                z-index: 1;
+                position: absolute;
+            }
+
+            .bgForLogoAni2 {
+                width: 34vh;
+                height: 34vh;
+                
+                margin: -50px 0 0 -120px;
+                border-radius: 50%;
+                border: 2px dotted #17032d;
+                /* background-color: #ef476f; */
+                z-index: 1;
+                position: absolute;
+            }
+
+
+
+
+            .contactsP-ba-bb a {
+                color: #17032d;
+                transition: 0.8s;
+            }
+
+            .contactsP-ba-bb a:hover {
+                color: #ef476f;
+                transition: 0.8s;
+            }
+
+
+
+
+            
+    .contactsP-openingDivider {
+        aspect-ratio: 960/100;
+        width: 100%;
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+    }
+    
+    .layer1-contacts {
+        background-image: url('https://res.cloudinary.com/pjtobias4/image/upload/v1669946018/onlineResumePortfolio/wave-haikei_qtcayv.svg');
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+
+
+@media screen and (max-width: 480px)  and (min-width: 300px){
+    .contactsP,
+    .contactsP-a,
+    .contactsP-c,
+    .contactsP-b {
+        height: 20vh;
+    }
+
+    .contactsP-ba,
+    .contactsP-ba-a,
+    .contactsP-ba-b,
+    .contactsP-ba-c {
+        height: 15vh;
+    }
+
+
+
+    .contactsP-ba-a-gradPic {
+        width: 7vh;
+        height: 7vh;
+        background-position: 50% 0%;
+        background-size: 7vh 7vh;
+    }
+        .bgForGradPic {
+            width: 8vh;
+            height: 8vh;
+            margin: 6px 0 0 10px;
+        }
+
+        .bgForGradPic2 {
+            width: 9vh;
+            height: 9vh;
+            margin: 6px 0 0 10px;
+        }
+
+    .contactsP-ba-c-logoAni {
+        width: 7vh;
+        height: 7vh;
+        background-position: 50% 50%;
+        background-size: 9vh 9vh;
+    }
+
+        .bgForLogoAni {
+            width: 8vh;
+            height: 8vh;
+            margin: -6px 0 0 -10px;
+        }
+
+        .bgForLogoAni2 {
+            width: 9vh;
+            height: 9vh;
+            margin: -6px 0 0 -10px;
+        }
+
+
+
+
+
+
+
+
+    .contactsP-ba-ba h1 {
+        font-size: 12px;
+    }
+    .contactsP-ba-ba h2 {
+        font-size: 6px;
+    }
+
+    .contactsP-ba-bb i {
+        font-size: 20px;
+        margin: 0 10px 0 10px;
+    }
+
+    .contactsP-ba-bc p {
+        font-size: 7px;
+        margin: 0 10px 0 10px;
+    }
+    
+    .contactsP-ba-bc {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items:center;
+    }
+}    
+
+
+
+
+@media screen and (max-width: 768px)  and (min-width: 481px){
+
+    .contactsP,
+    .contactsP-a,
+    .contactsP-c,
+    .contactsP-b {
+        height: 27vh;
+    }
+
+    .contactsP-ba,
+    .contactsP-ba-a,
+    .contactsP-ba-b,
+    .contactsP-ba-c {
+        height: 23vh;
+    }
+
+
+
+    .contactsP-ba-a-gradPic {
+        width: 10vh;
+        height: 10vh;
+        background-position: 50% 0%;
+        background-size: 10vh 10vh;
+    }
+        .bgForGradPic {
+            width: 12vh;
+            height: 12vh;
+            margin: 10px 0 0 20px;
+        }
+
+        .bgForGradPic2 {
+            width: 14vh;
+            height: 14vh;
+            margin: 10px 0 0 20px;
+        }
+
+    .contactsP-ba-c-logoAni {
+        width: 10vh;
+        height: 10vh;
+        background-position: 50% 50%;
+        background-size: 13vh 13vh;
+    }
+
+        .bgForLogoAni {
+            width: 12vh;
+            height: 12vh;
+            margin: -10px 0 0 -20px;
+        }
+
+        .bgForLogoAni2 {
+            width: 14vh;
+            height: 14vh;
+            margin: -10px 0 0 -20px;
+        }
+
+
+
+
+
+
+
+
+    .contactsP-ba-ba h1 {
+        font-size: 18px;
+    }
+    .contactsP-ba-ba h2 {
+        font-size: 11px;
+    }
+
+    .contactsP-ba-bb i {
+        font-size: 25px;
+        margin: 0 10px 0 10px;
+    }
+
+    .contactsP-ba-bc p {
+        font-size: 10px;
+        margin: 0 20px 0 20px;
+    }
+    
+    .contactsP-ba-bc {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items:center;
+    }
+}
+
+
+
+
+@media screen and (max-width: 1024px) and (min-width: 769px) {
+    .contactsP-ba-a-gradPic {
+        width: 15vh;
+        height: 15vh;
+        background-position: 50% 0%;
+        background-size: 15vh 15vh;
+    }
+        .bgForGradPic {
+            width: 17vh;
+            height: 17vh;
+            margin: 20px 0 0 30px;
+        }
+
+        .bgForGradPic2 {
+            width: 19vh;
+            height: 19vh;
+            margin: 20px 0 0 30px;
+        }
+
+    .contactsP-ba-c-logoAni {
+        width: 15vh;
+        height: 15vh;
+        background-position: 50% 50%;
+        background-size: 18vh 18vh;
+    }
+
+        .bgForLogoAni {
+            width: 17vh;
+            height: 17vh;
+            margin: -20px 0 0 -30px;
+        }
+
+        .bgForLogoAni2 {
+            width: 19vh;
+            height: 19vh;
+            margin: -20px 0 0 -30px;
+        }
+
+
+
+
+
+
+
+
+    .contactsP-ba-ba h1 {
+        font-size: 28px;
+    }
+    .contactsP-ba-ba h2 {
+        font-size: 18px;
+    }
+
+    .contactsP-ba-bb i {
+        font-size: 30px;
+        margin: 0 10px 0 10px;
+    }
+
+    .contactsP-ba-bc p {
+        font-size: 16px;
+        margin: 0 20px 0 20px;
+    }
+    
+    .contactsP-ba-bc {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items:center;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (max-width: 1200px) and (min-width: 1025px) {
+
+
+    .contactsP-ba-a-gradPic {
+        width: 20vh;
+        height: 20vh;
+        background-position: 50% 0%;
+        background-size: 20vh 20vh;
+    }
+        .bgForGradPic {
+            width: 22vh;
+            height: 22vh;
+            margin: 30px 0 0 90px;
+        }
+
+        .bgForGradPic2 {
+            width: 24vh;
+            height: 24vh;
+            margin: 30px 0 0 90px;
+        }
+
+    .contactsP-ba-c-logoAni {
+        width: 20vh;
+        height: 20vh;
+        background-position: 50% 50%;
+        background-size: 25vh 25vh;
+    }
+
+        .bgForLogoAni {
+            width: 22vh;
+            height: 22vh;
+            margin: -30px 0 0 -90px;
+        }
+
+        .bgForLogoAni2 {
+            width: 24vh;
+            height: 24vh;
+            margin: -30px 0 0 -90px;
+        }
+
+
+
+
+
+
+
+
+    .contactsP-ba-ba h1 {
+        font-size: 30px;
+    }
+    .contactsP-ba-ba h2 {
+        font-size: 20px;
+    }
+
+    .contactsP-ba-bb i {
+        font-size: 35px;
+        margin: 0 10px 0 10px;
+    }
+
+    .contactsP-ba-bc p {
+        font-size: 16px;
+        margin: 0 20px 0 20px;
+    }
+    
+    .contactsP-ba-bc {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items:center;
+    }
+}
+
+
