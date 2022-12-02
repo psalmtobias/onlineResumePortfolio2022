@@ -1,0 +1,1131 @@
+
+
+.porfolioP {
+    width: 100%;
+    height: 118vh;
+    /*butal yung height kasi yung spaceForNav's height from
+    styleMe.css ay 8vh. So manage mo lang is 110vh total height*/
+
+    align-items: center;
+    /* background-color: #17032d; */
+    background-color: #06d6a0;
+}
+
+    .porfolioP-space {
+        width: 100%;
+        height: 10vh;
+
+        background-color: #17032d;
+        /* background-color: red; */
+    }
+
+    .porfolioP-con {
+        width: 80%;
+        height: 90vh;
+
+        /* background-color: darkred; */
+    }
+
+
+        .porfolioP-con-a {
+            width: 100%;
+            height: 5vh;
+
+            justify-content: center;
+            /* background-color: deeppink; */
+        }
+
+            .porfolioP-con-aa {
+                width: 70%;
+                height: 10vh;
+                margin-top: -5vh;
+                border-radius: 40px;
+                padding-top: 1vh;
+                -webkit-box-shadow: 30px 30px 100px 10px rgba(0, 0, 0, 0.5);
+                -moz-box-shadow: 30px 30px 100px 10px rgba(0, 0, 0, 0.5);
+                box-shadow: 30px 30px 100px 10px rgba(0, 0, 0, 0.5);
+
+                background-color: #06d6a0;
+            }
+
+                .porfolioP-con-aa h1{
+                    color: #17032d;
+                }
+
+        .porfolioP-con-b {
+            width: 100%;
+            height: 85vh;
+
+            display: flex;
+            flex-direction: column;
+
+            /* background-color: deepskyblue; */
+        }
+
+            .porfolioP-con-ba {
+                width: 100%;
+                height: 5vh;
+                justify-content: center;
+                align-items: center;
+
+                /* background-color: darkseagreen; */
+            }
+
+            /* porfolioP-con-bb to porfolioP-con-be 
+            on line 150 onwards */
+
+    .porfolioP-space-end {
+        width: 100%;
+        height: 10vh;
+
+        background-color: #06d6a0;
+    }
+
+
+
+
+
+
+/* ------ Tab css setting on "porfolioP-con-b" ------ */
+/* ------ Tab css setting on "porfolioP-con-b" ------ */
+/* ------ Tab css setting on "porfolioP-con-b" ------ */
+
+    .tabCon {
+        width: 100%;
+    }
+    
+    /* Style classthe tab */
+    .tab {
+        background-color: #17032d;
+        display: flex;
+        justify-content: center;
+    }
+    
+    /* Style the buttons inside the tab */
+    .tab button {
+        background-color: inherit;
+        height: 5vh;
+        border: none;
+        outline: none;
+        cursor: pointer;
+        padding: 0 40px;
+        transition: 0.3s;
+        font-size: 17px;
+        color:#06d6a0;
+    }
+    
+    /* Change background color of buttons on hover */
+    .tab button:hover {
+        background-color: #ef476f;
+    }
+    
+    /* Create an active/current tablink class */
+    .tab button.active {
+        background-color: #06d6a0;
+        color: #17032d;
+        /* border-bottom: 1px solid #06d6a0; */
+        border-top: 3px solid #17032d;
+        outline: none;
+    }
+
+    .tab button:focus {
+        outline: none;
+    }
+    
+    /* Style the tab content */
+    .tabcontent {
+        display: none;
+        border-top: none;
+        margin: 0;
+        padding: 0;
+        transition: 0.5s;
+        /* background-color: aqua; */
+    }
+
+/* ------ Tab css setting on "porfolioP-con-b" END------ */
+/* ------ Tab css setting on "porfolioP-con-b" END------ */
+/* ------ Tab css setting on "porfolioP-con-b" END------ */
+
+
+
+
+
+
+
+
+/* ------ container bb - be ------ */
+/* ------ container bb - be ------ */
+/* ------ container bb - be ------ */
+
+
+
+.porfolioP-con-bb {
+    width: 100%;
+    /* height: 74vh; */
+        /* THE HEIGHT SET IN THE ABOVE LINE 
+        STILL APPLIES CONCEPTUALLY.
+        I APPLIED 20vh HEIGHT EACH CARD WITH 
+        10px MARGIN AND 30% WIDTH.
+        TO MEET A CLOSE 
+        74vh SET ABOVE LINE */
+    /* background-color: greenyellow; */
+}
+
+.porfolioP-con-bb ul {
+    padding: 0; /* Remove padding */
+    margin: 0; /* Remove margins */
+}
+
+.flex-container {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+
+    list-style-type: none;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+
+    /* background-color: crimson; */
+}
+
+
+.bb-graphicdesign-tab-a,
+.bb-graphicdesign-tab-b,
+.bb-graphicdesign-tab-c,
+.bb-graphicdesign-tab-d,
+.bb-graphicdesign-tab-e,
+.bb-graphicdesign-tab-f,
+.bb-graphicdesign-tab-g,
+.bb-graphicdesign-tab-h,
+.bb-graphicdesign-tab-i {
+    border-radius: 20px;
+
+    /* background: tomato; */
+    width: 30%;
+    height: 20vh;
+    margin: 10px;
+    transition: 0.5s;
+}
+
+.bb-graphicdesign-tab-a {
+    background-image: url("https://res.cloudinary.com/pjtobias4/image/upload/v1669945962/onlineResumePortfolio/portfolio-graphicdesign-a_bigoxi.jpg");
+    background-size: 100% auto;
+    background-position: 50% 30%;
+}
+
+.bb-graphicdesign-tab-b {
+    background-image: url("https://res.cloudinary.com/pjtobias4/image/upload/v1669946095/onlineResumePortfolio/portfolio-graphicdesign-b_or60zv.jpg");
+    background-size: 130% auto;
+    background-position: 50% 30%;
+}
+
+.bb-graphicdesign-tab-c {
+    background-image: url("https://res.cloudinary.com/pjtobias4/image/upload/v1669946093/onlineResumePortfolio/portfolio-graphicdesign-c_d4bjnv.jpg");
+    background-size: 130% auto;
+    background-position: 50% 20%;
+}
+
+
+
+.bb-graphicdesign-tab-e {
+    background-image: url("https://res.cloudinary.com/pjtobias4/image/upload/v1669946149/onlineResumePortfolio/portfolio-graphicdesign-d_swmxex.jpg");
+    background-size: 100% auto;
+    background-position: 50% 50%;
+}
+
+.bb-graphicdesign-tab-f {
+    background-image: url("https://res.cloudinary.com/pjtobias4/image/upload/v1669946220/onlineResumePortfolio/portfolio-graphicdesign-e_gyypnr.jpg");
+    background-size: 100% auto;
+    background-position: 50% 40%;
+}
+
+.bb-graphicdesign-tab-g {
+    background-image: url("https://res.cloudinary.com/pjtobias4/image/upload/v1669946107/onlineResumePortfolio/portfolio-graphicdesign-f_j3alpy.jpg");
+    background-size: 100% auto;
+    background-position: 50% 27%;
+}
+
+.bb-graphicdesign-tab-h {
+    background-image: url("https://res.cloudinary.com/pjtobias4/image/upload/v1669946081/onlineResumePortfolio/portfolio-graphicdesign-g_n3qsdm.jpg");
+    background-size: 100% auto;
+    background-position: 50% 50%;
+}
+
+.bb-graphicdesign-tab-i {
+    background-image: url("https://res.cloudinary.com/pjtobias4/image/upload/v1669946041/onlineResumePortfolio/portfolio-graphicdesign-h_uxjkmh.jpg");
+    background-size: 100% auto;
+    background-position: 50% 50%;
+}
+
+.bb-webdesign-tab-a,
+.bb-webdesign-tab-b,
+.bb-webdesign-tab-c,
+.bb-webdesign-tab-d,
+.bb-webdesign-tab-e,
+.bb-webdesign-tab-f,
+.bb-webdesign-tab-g,
+.bb-webdesign-tab-h,
+.bb-webdesign-tab-i {
+    border-radius: 20px;
+
+    /* background: aquamarine; */
+    width: 30%;
+    height: 20vh;
+    margin: 10px;
+}
+
+.bb-webdesign-tab-a {
+    background-image: url("https://res.cloudinary.com/pjtobias4/image/upload/v1669945980/onlineResumePortfolio/portfolio-webdesign-a_azwx4q.jpg");
+    background-size: 100% auto;
+    background-position: 50% 50%;
+}
+
+.bb-webdesign-tab-b {
+    background-image: url("https://res.cloudinary.com/pjtobias4/image/upload/v1669945982/onlineResumePortfolio/portfolio-webdesign-b_hjwl4o.jpg");
+    background-size: 100% auto;
+    background-position: 50% 60%;
+}
+
+.bb-webdesign-tab-c {
+    background-image: url("https://res.cloudinary.com/pjtobias4/image/upload/v1669946140/onlineResumePortfolio/portfolio-webdesign-c_hs2ziv.gif");
+    background-size: 100% auto;
+    background-position: 50% 50%;
+}
+
+
+
+.bb-webdesign-tab-e {
+    background-image: url("https://res.cloudinary.com/pjtobias4/image/upload/v1669945986/onlineResumePortfolio/portfolio-webdesign-d_kv18kt.jpg");
+    background-size: 100% auto;
+    background-position: 50% 50%;
+}
+
+.bb-webdesign-tab-f {
+    background-image: url("https://res.cloudinary.com/pjtobias4/image/upload/v1669945996/onlineResumePortfolio/portfolio-webdesign-e_kywwkn.jpg");
+    background-size: 100% auto;
+    background-position: 50% 50%;
+}
+
+.bb-webdesign-tab-g {
+    background-image: url("https://res.cloudinary.com/pjtobias4/image/upload/v1669946012/onlineResumePortfolio/portfolio-webdesign-f_q41rv7.jpg");
+    background-size: 100% auto;
+    background-position: 50% 0%;
+}
+
+.bb-webdesign-tab-h {
+    background-image: url("https://res.cloudinary.com/pjtobias4/image/upload/v1669945987/onlineResumePortfolio/portfolio-webdesign-g_gssd4k.jpg");
+    background-size: 100% auto;
+    background-position: 50% 0%;
+}
+
+.bb-webdesign-tab-i {
+    background-image: url("https://res.cloudinary.com/pjtobias4/image/upload/v1669946005/onlineResumePortfolio/portfolio-webdesign-h_e4umnj.jpg");
+    background-size: 100% auto;
+    background-position: 50% 10%;
+}
+
+.bb-branding-tab-a,
+.bb-branding-tab-b,
+.bb-branding-tab-c,
+.bb-branding-tab-d,
+.bb-branding-tab-e,
+.bb-branding-tab-f,
+.bb-branding-tab-g,
+.bb-branding-tab-h,
+.bb-branding-tab-i {
+    border-radius: 20px;
+
+    /* background: darkmagenta; */
+    width: 30%;
+    height: 20vh;
+    margin: 10px;
+}
+
+.bb-branding-tab-a {
+    background-image: url("https://res.cloudinary.com/pjtobias4/image/upload/v1669945941/onlineResumePortfolio/portfolio-branding-d_gelmgj.jpg");
+    background-size: 100% auto;
+    background-position: 50% 45%;
+}
+
+.bb-branding-tab-b {
+    background-image: url("https://res.cloudinary.com/pjtobias4/image/upload/v1669947510/onlineResumePortfolio/portfolio-branding-b_k3o4zm.gif");
+    background-size: 130% auto;
+    background-position: 50% 50%;
+}
+
+.bb-branding-tab-c {
+    background-image: url("https://res.cloudinary.com/pjtobias4/image/upload/v1669945935/onlineResumePortfolio/portfolio-branding-c_v8hxhc.jpg");
+    background-size: 100% auto;
+    background-position: 50% 50%;
+}
+
+
+
+.bb-branding-tab-e {
+    background-image: url("https://res.cloudinary.com/pjtobias4/image/upload/v1669945962/onlineResumePortfolio/portfolio-branding-a_swmkij.jpg");
+    background-size: 100% auto;
+    background-position: 50% 50%;
+}
+
+.bb-branding-tab-f {
+    background-image: url("https://res.cloudinary.com/pjtobias4/image/upload/v1669945940/onlineResumePortfolio/portfolio-branding-e_v9i8ou.jpg");
+    background-size: 100% auto;
+    background-position: 50% 50%;
+}
+
+.bb-branding-tab-g {
+    background-image: url("https://res.cloudinary.com/pjtobias4/image/upload/v1669945955/onlineResumePortfolio/portfolio-branding-f_e6afn7.jpg");
+    background-size: 100% auto;
+    background-position: 50% 50%;
+}
+
+.bb-branding-tab-h {
+    background-image: url("https://res.cloudinary.com/pjtobias4/image/upload/v1669945955/onlineResumePortfolio/portfolio-branding-g_z8ad8b.jpg");
+    background-size: 100% auto;
+    background-position: 50% 50%;
+}
+
+.bb-branding-tab-i {
+    background-image: url("https://res.cloudinary.com/pjtobias4/image/upload/v1669947510/onlineResumePortfolio/portfolio-branding-h_bheawy.gif");
+    background-size: 100% auto;
+    background-position: 50% 50%;
+}
+
+
+
+.bb-photography-tab-a,
+.bb-photography-tab-b,
+.bb-photography-tab-c,
+.bb-photography-tab-d,
+.bb-photography-tab-e,
+.bb-photography-tab-f,
+.bb-photography-tab-g,
+.bb-photography-tab-h,
+.bb-photography-tab-i {
+    border-radius: 20px;
+
+    /* background: burlywood; */
+    width: 30%;
+    height: 20vh;
+    margin: 10px;
+}
+
+
+.bb-photography-tab-a {
+    background-image: url("https://res.cloudinary.com/pjtobias4/image/upload/v1669945973/onlineResumePortfolio/portfolio-photography-d_bjlgvo.jpg");
+    background-size: 100% auto;
+    background-position: 50% 20%;
+}
+
+.bb-photography-tab-b {
+    background-image: url("https://res.cloudinary.com/pjtobias4/image/upload/v1669945976/onlineResumePortfolio/portfolio-photography-b_gh8crh.jpg");
+    background-size: 100% auto;
+    background-position: 50% 75%;
+}
+
+.bb-photography-tab-c {
+    background-image: url("https://res.cloudinary.com/pjtobias4/image/upload/v1669945970/onlineResumePortfolio/portfolio-photography-c_m6n08k.jpg");
+    background-size: 100% auto;
+    background-position: 50% 30%;
+}
+
+.bb-photography-tab-e {
+    background-image: url("https://res.cloudinary.com/pjtobias4/image/upload/v1669945967/onlineResumePortfolio/portfolio-photography-a_ydcqsc.jpg");
+    background-size: 100% auto;
+    background-position: 50% 37%;
+}
+
+
+.bb-photography-tab-f {
+    background-image: url("https://res.cloudinary.com/pjtobias4/image/upload/v1669945986/onlineResumePortfolio/portfolio-photography-e_reamlf.jpg");
+    background-size: 100% auto;
+    background-position: 50% 50%;
+}
+
+.bb-photography-tab-g {
+    background-image: url("https://res.cloudinary.com/pjtobias4/image/upload/v1669946016/onlineResumePortfolio/portfolio-photography-f_sv6c0o.jpg");
+    background-size: 100% auto;
+    background-position: 50% 50%;
+}
+
+.bb-photography-tab-h {
+    background-image: url("https://res.cloudinary.com/pjtobias4/image/upload/v1669945979/onlineResumePortfolio/portfolio-photography-g_qrwila.jpg");
+    background-size: 230% auto;
+    background-position: 50% 50%;
+}
+
+.bb-photography-tab-i {
+    background-image: url("https://res.cloudinary.com/pjtobias4/image/upload/v1669945979/onlineResumePortfolio/portfolio-photography-h_fvez2j.jpg");
+    background-size: 110% auto;
+    background-position: 50% 50%;
+}
+
+
+
+.bb-graphicdesign-tab-a,
+.bb-graphicdesign-tab-b,
+.bb-graphicdesign-tab-c,
+.bb-graphicdesign-tab-e,
+.bb-graphicdesign-tab-f,
+.bb-graphicdesign-tab-g,
+.bb-graphicdesign-tab-h,
+.bb-graphicdesign-tab-i,
+.bb-webdesign-tab-a,
+.bb-webdesign-tab-b,
+.bb-webdesign-tab-c,
+.bb-webdesign-tab-e,
+.bb-webdesign-tab-f,
+.bb-webdesign-tab-g,
+.bb-webdesign-tab-h,
+.bb-webdesign-tab-i,
+.bb-branding-tab-a,
+.bb-branding-tab-b,
+.bb-branding-tab-c,
+.bb-branding-tab-e,
+.bb-branding-tab-f,
+.bb-branding-tab-g,
+.bb-branding-tab-h,
+.bb-branding-tab-i,
+.bb-photography-tab-a,
+.bb-photography-tab-b,
+.bb-photography-tab-c,
+.bb-photography-tab-e,
+.bb-photography-tab-f,
+.bb-photography-tab-g,
+.bb-photography-tab-h,
+.bb-photography-tab-i {
+    -webkit-box-shadow: 30px 30px 50px 10px rgba(0, 0, 0, 0.25);
+    -moz-box-shadow: 30px 30px 50px 10px rgba(0, 0, 0, 0.25);
+    box-shadow: 30px 30px 50px 10px rgba(0, 0, 0, 0.25);
+}
+
+
+
+.bb-graphicdesign-tab-d,
+.bb-webdesign-tab-d,
+.bb-branding-tab-d,
+.bb-photography-tab-d {
+    color:#17032d;
+    font-size: 15px;
+}
+
+
+
+/* ------ container bb - be END------ */
+/* ------ container bb - be END------ */
+/* ------ container bb - be END------ */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (max-width: 600px) {
+    .porfolioP {
+        height: 108vh;
+    }
+    
+    .porfolioP-con {
+        height: 80vh;
+    }
+
+    .porfolioP-con-aa h1{
+        font-size: 25px;
+    }
+
+    .bb-graphicdesign-tab-a,
+    .bb-graphicdesign-tab-b,
+    .bb-graphicdesign-tab-c,
+    .bb-graphicdesign-tab-d,
+    .bb-graphicdesign-tab-e,
+    .bb-graphicdesign-tab-f,
+    .bb-graphicdesign-tab-g,
+    .bb-graphicdesign-tab-h,
+    .bb-graphicdesign-tab-i,
+    .bb-webdesign-tab-a,
+    .bb-webdesign-tab-b,
+    .bb-webdesign-tab-c,
+    .bb-webdesign-tab-d,
+    .bb-webdesign-tab-e,
+    .bb-webdesign-tab-f,
+    .bb-webdesign-tab-g,
+    .bb-webdesign-tab-h,
+    .bb-webdesign-tab-i,
+    .bb-branding-tab-a,
+    .bb-branding-tab-b,
+    .bb-branding-tab-c,
+    .bb-branding-tab-d,
+    .bb-branding-tab-e,
+    .bb-branding-tab-f,
+    .bb-branding-tab-g,
+    .bb-branding-tab-h,
+    .bb-branding-tab-i,
+    .bb-photography-tab-a,
+    .bb-photography-tab-b,
+    .bb-photography-tab-c,
+    .bb-photography-tab-d,
+    .bb-photography-tab-e,
+    .bb-photography-tab-f,
+    .bb-photography-tab-g,
+    .bb-photography-tab-h,
+    .bb-photography-tab-i {
+        border-radius: 20px;
+    
+        /* background: tomato; */
+        width: 40%;
+        height: 10vh;
+        margin: 5px;
+    }
+
+    .bb-graphicdesign-tab-d p,
+    .bb-webdesign-tab-d p,
+    .bb-branding-tab-d p,
+    .bb-photography-tab-d p {
+        color:#17032d;
+        font-size: 5px;
+    }
+
+    .bb-graphicdesign-tab-d h3,
+    .bb-webdesign-tab-d h3,
+    .bb-branding-tab-d h3,
+    .bb-photography-tab-d h3 {
+        color:#17032d;
+        font-size: 11px;
+    }
+
+    .bb-graphicdesign-tab-a {
+        background-size: 150% auto;
+        background-position: 70% 50%;
+    }
+    
+    .bb-graphicdesign-tab-b {
+        background-size: 150% auto;
+        background-position: 80% 50%;
+    }
+    
+    .bb-graphicdesign-tab-c {
+        background-size: 150% auto;
+        background-position: 80% 30%;
+    }
+    
+    .bb-graphicdesign-tab-e {
+        background-size: 140% auto;
+        background-position: 90% 50%;
+    }
+
+    .bb-graphicdesign-tab-h {
+        background-size: 150% auto;
+    }
+
+
+
+    .bb-webdesign-tab-a {
+        background-size: 120% auto;
+    }
+    
+    .bb-webdesign-tab-b {
+        background-size: 120% auto;
+    }
+    
+    .bb-webdesign-tab-c {
+        background-size: 110% auto;
+    }
+
+    .bb-webdesign-tab-e {
+        background-size: 110% auto;
+    }
+    
+    .bb-webdesign-tab-f {
+        background-size: 110% auto;
+    }
+
+    .bb-webdesign-tab-g {
+        background-size: 180% auto;
+    }
+
+    .bb-webdesign-tab-h {
+        background-size: 190% auto;
+        background-position: 20% 0%;
+    }
+
+
+    .bb-branding-tab-b {
+        background-size: 140% auto;
+    }
+
+    .bb-branding-tab-c {
+        background-size: 140% auto;
+    }
+
+    .bb-branding-tab-e {
+        background-size: 120% auto;
+    }
+
+    .bb-branding-tab-f {
+        background-size: 120% auto;
+    }
+    
+    .bb-branding-tab-g {
+        background-size: 150% auto;
+    }
+
+    .bb-branding-tab-h {
+        background-size: 130% auto;
+    }
+
+    .bb-branding-tab-i {
+        background-size: 120% auto;
+    }
+
+
+
+    .bb-photography-tab-b {
+        background-size: 250% auto;
+        background-position: 20% 55%;
+    }
+
+    .bb-photography-tab-c {
+        background-position: 50% 40%;
+    }
+
+    .bb-photography-tab-f {
+        background-size: 160% auto;
+        background-position: 50% 30%;
+    }
+
+    .bb-photography-tab-g {
+        background-position: 50% 50%;
+    }
+    
+    .bb-photography-tab-h {
+        background-size: 280% auto;
+    }
+    
+    .bb-photography-tab-i {
+        background-size: 170% auto;
+        background-position: 40% 25%;
+    }
+
+    .tab button {
+        height: 5vh;
+        padding: 0 10px;
+        font-size: 10px;
+    }
+}       
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (max-width: 900px)  and (min-width: 601px){
+    .porfolioP {
+        height: 158vh;
+    }
+    
+    .porfolioP-con {
+        height: 130vh;
+    }
+
+    .bb-graphicdesign-tab-a,
+    .bb-graphicdesign-tab-b,
+    .bb-graphicdesign-tab-c,
+    .bb-graphicdesign-tab-d,
+    .bb-graphicdesign-tab-e,
+    .bb-graphicdesign-tab-f,
+    .bb-graphicdesign-tab-g,
+    .bb-graphicdesign-tab-h,
+    .bb-graphicdesign-tab-i,
+    .bb-webdesign-tab-a,
+    .bb-webdesign-tab-b,
+    .bb-webdesign-tab-c,
+    .bb-webdesign-tab-d,
+    .bb-webdesign-tab-e,
+    .bb-webdesign-tab-f,
+    .bb-webdesign-tab-g,
+    .bb-webdesign-tab-h,
+    .bb-webdesign-tab-i,
+    .bb-branding-tab-a,
+    .bb-branding-tab-b,
+    .bb-branding-tab-c,
+    .bb-branding-tab-d,
+    .bb-branding-tab-e,
+    .bb-branding-tab-f,
+    .bb-branding-tab-g,
+    .bb-branding-tab-h,
+    .bb-branding-tab-i,
+    .bb-photography-tab-a,
+    .bb-photography-tab-b,
+    .bb-photography-tab-c,
+    .bb-photography-tab-d,
+    .bb-photography-tab-e,
+    .bb-photography-tab-f,
+    .bb-photography-tab-g,
+    .bb-photography-tab-h,
+    .bb-photography-tab-i {
+        border-radius: 20px;
+    
+        /* background: tomato; */
+        width: 35%;
+        height: 20vh;
+        margin: 10px;
+    }
+
+    .bb-graphicdesign-tab-d p,
+    .bb-webdesign-tab-d p,
+    .bb-branding-tab-d p,
+    .bb-photography-tab-d p {
+        color:#17032d;
+        font-size: 11px;
+    }
+
+    .bb-graphicdesign-tab-d h3,
+    .bb-webdesign-tab-d h3,
+    .bb-branding-tab-d h3,
+    .bb-photography-tab-d h3 {
+        color:#17032d;
+        font-size: 22px;
+    }
+
+    .bb-graphicdesign-tab-a {
+        background-size: 150% auto;
+        background-position: 70% 50%;
+    }
+    
+    .bb-graphicdesign-tab-b {
+        background-size: 150% auto;
+        background-position: 80% 50%;
+    }
+    
+    .bb-graphicdesign-tab-c {
+        background-size: 150% auto;
+        background-position: 80% 30%;
+    }
+    
+    .bb-graphicdesign-tab-e {
+        background-size: 140% auto;
+        background-position: 90% 50%;
+    }
+
+    .bb-graphicdesign-tab-h {
+        background-size: 150% auto;
+    }
+
+
+
+    .bb-webdesign-tab-a {
+        background-size: 120% auto;
+    }
+    
+    .bb-webdesign-tab-b {
+        background-size: 120% auto;
+    }
+    
+    .bb-webdesign-tab-c {
+        background-size: 110% auto;
+    }
+
+    .bb-webdesign-tab-e {
+        background-size: 110% auto;
+    }
+    
+    .bb-webdesign-tab-f {
+        background-size: 110% auto;
+    }
+
+    .bb-webdesign-tab-g {
+        background-size: 180% auto;
+    }
+
+    .bb-webdesign-tab-h {
+        background-size: 190% auto;
+        background-position: 20% 0%;
+    }
+
+
+    .bb-branding-tab-b {
+        background-size: 170% auto;
+    }
+
+    .bb-branding-tab-c {
+        background-size: 140% auto;
+    }
+
+    .bb-branding-tab-e {
+        background-size: 140% auto;
+    }
+
+    .bb-branding-tab-f {
+        background-size: 140% auto;
+    }
+    
+    .bb-branding-tab-g {
+        background-size: 150% auto;
+    }
+
+    .bb-branding-tab-h {
+        background-size: 130% auto;
+    }
+
+    .bb-branding-tab-i {
+        background-size: 180% auto;
+    }
+
+
+
+    .bb-photography-tab-b {
+        background-size: 250% auto;
+        background-position: 20% 70%;
+    }
+
+    .bb-photography-tab-c {
+        background-position: 50% 50%;
+    }
+
+    .bb-photography-tab-f {
+        background-size: 160% auto;
+        background-position: 50% 50%;
+    }
+
+    .bb-photography-tab-g {
+        background-position: 50% 60%;
+    }
+    
+    .bb-photography-tab-h {
+        background-size: 340% auto;
+    }
+    
+    .bb-photography-tab-i {
+        background-size: 175% auto;
+        background-position: 40% 50%;
+    }
+
+
+
+    .tab button {
+        height: 5vh;
+        padding: 0 30px;
+        font-size: 11px;
+    }
+
+
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (max-width: 1024px) and (min-width: 901px) {
+    .bb-graphicdesign-tab-a {
+        background-size: 130% auto;
+    }
+
+    .bb-graphicdesign-tab-e {
+        background-size: 130% auto;
+    }
+
+
+
+
+    .bb-webdesign-tab-b {
+        background-size: 105% auto;
+    }
+
+    .bb-webdesign-tab-g {
+        background-size: 140% auto;
+    }
+
+
+
+    .bb-branding-tab-c,
+    .bb-branding-tab-e,
+    .bb-branding-tab-f, 
+    .bb-branding-tab-g,
+    .bb-branding-tab-h {
+        background-size: 125% auto;
+    }
+    
+    .bb-branding-tab-i {
+        background-size: 140% auto;
+    }
+
+
+    .bb-photography-tab-b {
+        background-size: 160% auto;
+        background-position: 30% 80%;
+    }
+
+    .bb-photography-tab-c {
+        background-position: 50% 50%;
+    }
+
+    .bb-photography-tab-f {
+        background-size: 140% auto;
+    }
+
+    .bb-photography-tab-i {
+        background-size: 150% auto;
+    }
+
+
+
+    .bb-graphicdesign-tab-d p,
+    .bb-webdesign-tab-d p,
+    .bb-branding-tab-d p,
+    .bb-photography-tab-d p {
+        color:#17032d;
+        font-size: 12px;
+    }
+
+    .bb-graphicdesign-tab-d h3,
+    .bb-webdesign-tab-d h3,
+    .bb-branding-tab-d h3,
+    .bb-photography-tab-d h3 {
+        color:#17032d;
+        font-size: 25px;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (max-width: 1200px) and (min-width: 1025px) {
+    .bb-graphicdesign-tab-a {
+        background-size: 120% auto;
+    }
+
+    .bb-branding-tab-i {
+        background-size: 130% auto;
+    }
+
+    .bb-photography-tab-b {
+        background-size: 120% auto;
+    }
+
+    .bb-photography-tab-c {
+        background-position: 50% 40%;
+    }
+
+    .bb-photography-tab-f {
+        background-size: 120% auto;
+    }
+
+    .bb-photography-tab-i {
+        background-size: 130% auto;
+    }
+
+    .bb-graphicdesign-tab-d,
+    .bb-webdesign-tab-d,
+    .bb-branding-tab-d,
+    .bb-photography-tab-d {
+        color:#17032d;
+        font-size: 13px;
+    }
+}
